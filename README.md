@@ -1,18 +1,23 @@
-## Getting Started
+# 🔁 DesafioControleFluxo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto em Java simula um contador com base em dois parâmetros numéricos fornecidos via terminal. Caso o primeiro número seja maior que o segundo, uma exceção personalizada será lançada.
 
-## Folder Structure
+## 📋 Requisitos
 
-The workspace contains two folders by default, where:
+- Java JDK 8 ou superior
+- Editor de código (ex: VS Code, IntelliJ, Eclipse)
+- Terminal ou prompt de comando
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## ⚙️ Como Executar
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Clone ou baixe o repositório.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+2. Compile os arquivos:
+   ```bash
+   javac ParametrosInvalidosException.java Contador.java
 
-## Dependency Management
+3. Execute o programa:
+    java Contador
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+4. Digite os dois números solicitados pelo terminal.
+    
